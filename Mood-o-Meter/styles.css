@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+
+}
+
+.section{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10rem;
+   flex-direction: column;
+}
+
+#imageInput{
+    opacity: 0;
+}
+
+#inputButton{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: white;
+    font-weight: bold;
+}
+
+#inputButton:hover{
+    cursor: pointer;
+}
+
+#preview{
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+#statArea{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 10rem;
+}
+
