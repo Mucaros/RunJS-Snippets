@@ -1,0 +1,88 @@
+:root{
+    --primary-color: black;
+    --secondary-color: white;
+    --tertiary-color: #222;
+    --font-family: Arial, Helvetica, sans-serif;
+}
+
+:root.light-mode{
+    --primary-color: white;
+    --secondary-color: black;
+    --tertiary-color: #222;
+    --font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--primary-color);
+    color:  var(--secondary-color);
+    font-family: var(--font-family);
+    height: 100rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 1rem;
+    font-size: 2rem;
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: -30rem;
+  width: 250px;
+  height: 100%;
+  background-color: var(--tertiary-color);
+  color: white;
+  padding: 2rem;
+  transition: left 0.3s ease-in-out;
+}
+
+.menu li{
+    cursor: pointer;
+}
+
+.menu.open{
+    left: 0;
+}
+
+.toggle-btn{
+    font-weight: bold;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+#closeButton{
+    cursor: pointer;
+}
+
+#paragraphButton.green{
+    background-color: green;
+}
+
+.header-bar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--tertiary-color);
+}
+
+nav h1{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+    background-color: var(--tertiary-color);
+}
+
