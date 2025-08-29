@@ -1,0 +1,38 @@
+.selfie{
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    left: 30%;
+    top: 5rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px var(--secondary-color);
+    transition: ease-in-out 1s;
+}
+
+.main-paragraph{
+    width: 25rem;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    left: 55%;
+    top: 5%;
+    transform: translateY(+50%);
+}
+
+.first-section{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 0rem;
+    justify-content: space-between;
+}
+
+.earth-img{
+    z-index: -1;
+    position: relative;
+    transform: translateY(-30%);
+}

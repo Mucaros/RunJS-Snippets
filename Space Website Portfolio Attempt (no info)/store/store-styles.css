@@ -1,0 +1,112 @@
+.main-title{
+    position: absolute;
+    width: 25rem;
+    left: 50%;
+    top: 5rem;
+    transform: translate(-45%);
+    height: 10rem;
+    margin: 0;
+    font-size: xx-large;
+    letter-spacing: 0.5rem;
+}
+
+.secondary-title{
+    position: absolute;
+    width: 25rem;
+    left: 54%;
+    top: -10rem;
+    transform: translate(-45%);
+    height: 10rem;
+    margin: 0;
+    font-size: xx-large;
+    letter-spacing: 0.5rem;
+}
+
+.first-section{
+    align-items: center;
+    height: fit-content;
+    margin: 0;
+}
+
+.job-list{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate(-55%);
+    top: -22rem;
+}
+
+.job-list li{
+    margin-bottom: 15rem;
+    list-style-type: none;
+    width: 30rem;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    margin: 2rem auto;
+}
+
+.school-list{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate(-55%);
+    margin-top: 15rem;
+}
+
+.school-list li{
+    margin-bottom: 15rem;
+    list-style-type: none;
+    width: 30rem;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    margin: 2rem auto;
+}
+
+
+.third-section{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40rem;
+}
+
+.planet{
+    position: absolute;
+    display: block;
+}
+
+.earth-img {
+  top: 30rem;   /* distance from top of container */
+  left: 60rem;  /* distance from left of container */
+}
+
+.moon-img{
+    top: 20rem;
+    left: -30rem;
+}
+
+.mars-img{
+    right: 10rem;
+}
+
+.solar-system{
+    position: relative;
+    z-index: -1;
+}
+
+.title{
+    color: white;
+}
+
+footer{
+    padding-top: 68rem;
+}
